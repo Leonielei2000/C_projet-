@@ -18,7 +18,7 @@ enum CellType grid[NB_COL][NB_LIG];
 /*afficher la grille*/
 void afficher_grille(void){
     int i,j;
-g
+
     for(i=0;i < NB_COL;i++){
         MLV_draw_line( 0, FENETRE_H/NB_COL * i, FENETRE_W, FENETRE_H/NB_COL * i, MLV_COLOR_BLACK );
         for(j=0;j < NB_LIG;j++){
