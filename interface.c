@@ -55,10 +55,10 @@ int main(){
         //
 	afficher_grille();
     MLV_actualise_window();
-        MLV_wait_seconds( 100 );
+    MLV_wait_seconds( 100 );
         //
         // Fermer la fenêtre
         //
-        MLV_free_window();
-        return 0;
+    MLV_free_window();
+    return 0;
 }
